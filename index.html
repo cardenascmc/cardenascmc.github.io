@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="src/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/761e4c8e5c.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+      <section class="hero">
+          <nav>
+              <img class="logo" src="src/images/logo.png" alt="Ania Kubow's logo"/>
+              <ul id="nav-list">
+                  <li><a href="#about-me">Sobre mí</a></li>
+                  <li><a href="#projects">Projectos</a></li>
+                  <li><a href="#contact-me">Contacto</a></li>
+              </ul>
+              <button class="hamburger" id="hamburger">
+                  <i class="fas fa-bars"></i>
+              </button>
+          </nav>
+          <div class="hero-area">
+            <div class="hero-text">
+                <h1>Carlos Cardenas</h1>
+                <p>Desarrollador de Software</p>
+                <div class="button"><a href="#about-me">Sobre mí</a></div>
+            </div>
+            <div class="socials">
+                <div><a href="www.linkedin.com/in/cardenascmc"  class="social">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="#ffffff" width="50" height="50" viewBox="0 0 24 24"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg>
+                </a></div>
+            </div>
+          </div>
+      </section>
+      <section class="sub-section" id="about-me">
+          <div class="information">
+              <h2>Sobre mí</h2>
+              <p>
+                  Hola. Mi nombre es Carlos Cardenas.
+              </p>
+              <p>
+                Soy un Desarrollador de Software en busca de nuevos conocimientos.
+              </p>
+              <p>Este lugar es exclusivamente para llevar un seguimiento de mis proyectos y aprendizaje.</p>
+          </div>
+      </section>
+      <section class="sub-section-alternative" id="projects">
+          <h2>Projectos</h2>
+          <div class="project-container">
+              <div class="project-card">
+                  <img class="project-image" src="src/images/project1.jpg" alt="Project One Image"/>
+                  <h3>Clon de Amazon</h3>
+                  <p class="subtext">Este projecto fue realizado con React js y firebase.</p>
+                  <hr/>
+                  <p class="subtext"><a class="project-link" href="https://clone-f9f1d.web.app/">Ver aquí</a></p>
+              </div>
+              <div class="project-card">
+                <img class="project-image" src="src/images/project2.jpg" alt="Project One Image"/>
+                <h3>Dashboard</h3>
+                <p class="subtext">Este projecto fue realizado con ASP.NET Core API + Angular.</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="#">Ver aquí</a></p>
+              </div>
+              <div class="project-card">
+                <img class="project-image" src="src/images/project3.png" alt="Project One Image"/>
+                <h3>Clon de Linkedin</h3>
+                <p class="subtext">Este projecto fue realizado con React js + Redux y firebase.</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://linkedin-clone-cddf5.web.app/">Ver aquí</a></p>
+              </div>
+              <div class="project-card">
+                <img class="project-image" src="src/images/project4.jpg" alt="Project One Image"/>
+                <h3>Clon de Gmail</h3>
+                <p class="subtext">Este proyecto fue realizado con React js + Redux y firebase.</p>
+                <hr/>
+                <p class="subtext"><a class="project-link" href="https://clone-6fbce.web.app/">Ver aquí</a></p>
+              </div>
+          </div>
+      </section>
+      <footer id="contact-me">
+          <h2>Contáctame</h2>
+          <p>cardenascmc@gmail.com</p>
+      </footer>
+    <script src="src/app.js"></script>
+  </body>
+</html>
